@@ -1,0 +1,25 @@
+2023-12-09 14:01:27.874  INFO 14351 --- [main] com.bm.j23.auth.AuthApplication          : Starting AuthApplication using Java 17.0.2 on mbpro.local with PID 14351 (/Users/melsheikh/workspace/other/bm-jobathon/authx/target/classes started by melsheikh in /Users/melsheikh/workspace/other/bm-jobathon/authx)
+2023-12-09 14:01:27.876  INFO 14351 --- [main] com.bm.j23.auth.AuthApplication          : No active profile set, falling back to default profiles: default
+2023-12-09 14:01:28.279  INFO 14351 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-12-09 14:01:28.307  INFO 14351 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2023-12-09 14:01:28.908  INFO 14351 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-12-09 14:01:28.915  INFO 14351 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-09 14:01:28.915  INFO 14351 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2023-12-09 14:01:28.973  INFO 14351 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-09 14:01:28.974  INFO 14351 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1050 ms
+2023-12-09 14:01:29.075  INFO 14351 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-12-09 14:01:29.102  INFO 14351 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2023-12-09 14:01:29.225  INFO 14351 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-12-09 14:01:29.289  INFO 14351 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-12-09 14:01:29.575  INFO 14351 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-12-09 14:01:29.587  INFO 14351 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-12-09 14:01:29.963  INFO 14351 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-12-09 14:01:29.967  INFO 14351 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-12-09 14:01:30.300  INFO 14351 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure Ant [pattern='/api/user/create'] with []
+2023-12-09 14:01:30.411  INFO 14351 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3cae4518, org.springframework.security.web.context.SecurityContextPersistenceFilter@7fc56d61, org.springframework.security.web.header.HeaderWriterFilter@78bce1c4, org.springframework.web.filter.CorsFilter@5a654e05, org.springframework.security.web.authentication.logout.LogoutFilter@6e1ad658, com.bm.j23.auth.security.JWTAuthenticationFilter@121dac1a, com.bm.j23.auth.security.JWTAuthenticationVerificationFilter@6d946eee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6074d638, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e5c52fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23dc70c1, org.springframework.security.web.session.SessionManagementFilter@45b6c666, org.springframework.security.web.access.ExceptionTranslationFilter@4fc256ec, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2de96eba]
+2023-12-09 14:01:30.620  INFO 14351 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-12-09 14:01:30.631  INFO 14351 --- [main] com.bm.j23.auth.AuthApplication          : Started AuthApplication in 3.633 seconds (JVM running for 5.174)
+2023-12-09 14:01:37.949  INFO 14351 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-12-09 14:01:37.950  INFO 14351 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2023-12-09 14:01:39.280  INFO 14351 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-12-09 14:01:39.539  INFO 14351 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
